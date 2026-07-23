@@ -1,0 +1,8 @@
+nome=input("digite seu nome: ")
+idade=input("digite sua idade: ")
+cidade=input("digite sua cidade: ")
+curso=input ("digite seu curso: ")
+ano_ingresso=input("Digite o ano em que começou o curso: ")
+print("")
+print("")
+print("Olá, seu nome é ",nome, "vc tem " ,idade, "anos" "e vc é de " ,cidade, "e faz o curso " ,curso, "que deu inicio em " ,ano_ingresso  )
