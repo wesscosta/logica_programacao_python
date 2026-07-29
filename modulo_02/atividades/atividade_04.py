@@ -1,31 +1,31 @@
 # ## Atividade 04 — Menu do sistema
 
 # Crie um menu com as opções:
-#     1 - Novo cadastro
-# 2 - Consultar cadastro
-# 3 - Atualizar cadastro
-# 4 - Remover cadastro
+#     1 - Novo Cadastro
+# 2 - Consultar Cadastro
+# 3 - Atualizar Cadastro
+# 4 - Remover Cadastro
 
 # Utilize match-case para apresentar uma mensagem correspondente à opção escolhida e trate entradas inválidas.
 
 opcao = int(input("""
 ---menu---
-1 - Novo cadastro
-2 - Consultar cadastro
-3 - Atualizar cadastro
-4 - Remover cadastro
+1 - Novo Cadastro
+2 - Consultar Cadastro
+3 - Atualizar Cadastro
+4 - Remover Cadastro
 """))
 
 match opcao:
      case 1 :
-         print("cadastro concluindo")
+         print("Cadastro concluindo")
      case 2 :
-         print("cadastro achado") 
+         print("Cadastro achado") 
      case 3 :
-         print("cadastro atualizado")
+         print("Cadastro atualizado")
      case 4 :
-         print("cadastro removido")           
+         print("Cadastro removido")           
      case _:
-         print("opcao invalido")
+         print("Opcao invalido")
 
 print("\nfim algoritmo")    
